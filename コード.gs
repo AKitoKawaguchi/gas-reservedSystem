@@ -1,9 +1,9 @@
 var channel_token = "MOAdCgT8iE6U/2SeTi1KHngteOTRyzxQihvNiqXygQGJDOZ/mI/FZS/tVcelEPtfcArX7u1JImYAzsa26M6Pi3pVg5CBSilnvn6d3JRdrr0mypgdMkjXBZPy9Cw2ZYXly3IUsxdirGX0qtHvrVYBwQdB04t89/1O/w1cDnyilFU=";
 var url = "https://api.line.me/v2/bot/message/reply";
 
-var sheet = SpreadsheetApp.openById("1Tgp_6HnZD6VOOQkAp1kacX2GG3SlWmA6bTHXM65YsA8");
+var sheet = SpreadsheetApp.openById("1RcTUPC_zPT0Q-RqjEkofse2stmUNmnakAp67Vn1bvzY");
 
-var sheetname = sheet.getSheetByName("シート4");
+var sheetname = sheet.getSheetByName("data");
 
 var dayExp = /(\d+)[\.\/月](\d+)/;
 var hourMinExp = /(\d+)[:時](\d+)*/;
